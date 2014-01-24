@@ -1,0 +1,17 @@
+{
+  "name": "gulp-quick-start",
+  "version": "0.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp-concat": "~2.1.7",
+    "gulp-autoprefixer": "0.0.4",
+    "gulp-minify-css": "~0.2.0",
+    "gulp": "~3.4.0",
+    "gulp-imagemin": "~0.1.4",
+    "gulp-plumber": "~0.5.6"
+  },
+  "scripts": {},
+  "author": "Shuhei Kagawa <shuhei.kagawa@gmail.com>",
+  "license": "BSD"
+}
