@@ -22,14 +22,8 @@ gulp.task('img', function () {
 });
  
 gulp.task('watch', function () {
-  gulp.watch('htdocs/css/**/*', function () {
-    gulp.run('css');
-  });
-  gulp.watch('htdocs/img/**/*', function () {
-    gulp.run('img');
-  });
+  gulp.watch('htdocs/css/**/*', ['css']);
+  gulp.watch('htdocs/img/**/*', ['img']);
 });
  
-gulp.task('default', function () {
-  gulp.run('css', 'img');
-});
+gulp.task('default', ['css', 'img']);
